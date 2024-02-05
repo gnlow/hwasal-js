@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "jsx": "precompile",
+        "jsxImportSource": "hwasal"
+    },
+    "imports": {
+        "hwasal/jsx-runtime": "../src/mod.ts"
+    }
+}
