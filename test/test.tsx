@@ -1,15 +1,9 @@
-const w = "?"
-console.log(
-    <h1 c:v2>
-        <v>hello{"world!"}</v>
-        <v>hello{"world" + w}</v>
-    </h1>
-)
+const $ = (a: number) => (() => a) as unknown as number
 
-const V = () => "hi"
-console.log(<V hello="world">what</V>)
+let count = $(0)
+const Counter = () => count++
 
-console.log(<button {...() => {}} />)
-
-const button = {a: () => 2}
-console.log(<button.a />)
+export default
+    <Counter>
+        Fired {count} arrows
+    </Counter>
