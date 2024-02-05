@@ -1,1 +1,7 @@
-console.log(<h1>Hi</h1>)
+const w = "?"
+console.log(
+    <h1 c:v2>
+        <v>hello{"world!"}</v>
+        <v>hello{"world" + w}</v>
+    </h1>
+)
