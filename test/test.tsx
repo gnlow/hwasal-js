@@ -5,3 +5,6 @@ console.log(
         <v>hello{"world" + w}</v>
     </h1>
 )
+
+const V = () => "hi"
+console.log(<V hello="world">what</V>)

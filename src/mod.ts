@@ -18,8 +18,6 @@ export const jsxEscape = (value: string) => {
     console.log("esc:", value)
     return value
 }
-/*
 export const jsx = (type: string, props: string[], key: string) => {
     console.log("jsx:", type, props, key)
 }
-*/
