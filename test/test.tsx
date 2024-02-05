@@ -8,3 +8,8 @@ console.log(
 
 const V = () => "hi"
 console.log(<V hello="world">what</V>)
+
+console.log(<button {...() => {}} />)
+
+const button = {a: () => 2}
+console.log(<button.a />)
